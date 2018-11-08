@@ -1,0 +1,43 @@
+body {
+    font-family:"Arial";}
+
+nav {background-color: black;
+padding:10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+    div.wrapper {
+        width: 1000px;
+        margin: auto;
+    }
+
+    article {
+        float:left;
+        width:50%;
+        margin-right: 124px;
+        margin-top: 30px;
+    }
+
+    table {
+        border:1px solid black;
+        border-collapse: collapse;
+        margin-top: 30px;
+    }
+
+    td {padding: 15px;
+        border:1px solid black;
+    }
+
+    td.groen {
+        background:#ccffcc;
+    }
+
+td.blauw {
+    background:#ccffff;
+}
