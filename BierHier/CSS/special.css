@@ -1,0 +1,204 @@
+/* font-family: 'PT Sans', sans-serif; voor artikelen!/
+/ font-family: 'KoHo', sans-serif; voor text!*/
+
+* {
+    border: dotted 0px grey;
+}
+
+@media all and (min-width: 550px){
+    ul {
+        background-color: rgb(128,128,128);
+        border-top: 0px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+
+    img#stage {
+        width: 150%;
+    }
+}
+
+@media all and (min-width: 920px) {
+    section#nieuws {
+        width: 30%;
+        float: left;
+    }
+
+    article {
+        display: inline-block;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    section#stage {
+        width: 45%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+    #Contactpagina {
+        grid-area: Contactpagina;
+    }
+    #Concerten {
+        grid-area: Concerten;
+    }
+    #Sportevenementen {
+        grid-area: Sportevenementen;
+    }
+    #Kamerbewoners {
+        grid-area: Kamerbewoners;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 1200px;
+}
+
+
+
+/*.column3 p.logo {*/
+/*margin-top: 100px;*/
+/*}*/
+
+tekstpluslogo {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    background-color: rgb(128,128,128);
+    padding: 10px;
+    padding-left: 20px;
+    border-top: 0px solid white;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+section, footer {
+    padding: 20px;
+}
+footer {
+    background-color: darkgrey;
+    color: white;
+    clear: both;
+    font-family: "PT Sans",sans-serif;
+}
+
+footer h3 {
+    color: white;
+}
+
+h2 {
+    font-family: "PT Sans",sans-serif;
+}
+
+nav {
+    font-family: "PT Sans",sans-serif;
+}
+
+.row iframe {
+    position: absolute;
+    top: 420px;
+}
+
+.row p {
+    font-family: "KoHo", sans-serif
+}
+
+
+
+
+.responsive2 {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+}
+
+
+
+.XD2 img {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+}
+
+.column2 button {
+    background-color: #ff2130;
+    border: none;
+    color: white;
+    padding: 15px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: "PT Sans",sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration:none;
+    margin-top: 8px;
+}
+
+.column2 button:hover {
+    background-color: #ff4c58;
+    color: white;
+    text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.column2 img {
+    max-width: 95%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+}
+
+nav a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
